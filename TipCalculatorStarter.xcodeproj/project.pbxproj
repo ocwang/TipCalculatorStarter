@@ -12,6 +12,7 @@
 		CA4363E31F710F1D00BDEE8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA4363E11F710F1D00BDEE8A /* Main.storyboard */; };
 		CA4363E51F710F1D00BDEE8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA4363E41F710F1D00BDEE8A /* Assets.xcassets */; };
 		CA4363E81F710F1D00BDEE8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA4363E61F710F1D00BDEE8A /* LaunchScreen.storyboard */; };
+		CA4363F31F71159100BDEE8A /* UIColor+TC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4363F21F71159100BDEE8A /* UIColor+TC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		CA4363E41F710F1D00BDEE8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CA4363E71F710F1D00BDEE8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CA4363E91F710F1D00BDEE8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA4363F21F71159100BDEE8A /* UIColor+TC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+TC.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +60,19 @@
 				CA4363DF1F710F1D00BDEE8A /* ViewController.swift */,
 				CA4363E11F710F1D00BDEE8A /* Main.storyboard */,
 				CA4363E41F710F1D00BDEE8A /* Assets.xcassets */,
-				CA4363E61F710F1D00BDEE8A /* LaunchScreen.storyboard */,
-				CA4363E91F710F1D00BDEE8A /* Info.plist */,
+				CA4363EF1F7114F800BDEE8A /* Supporting Files */,
 			);
 			path = TipCalculatorStarter;
+			sourceTree = "<group>";
+		};
+		CA4363EF1F7114F800BDEE8A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA4363E91F710F1D00BDEE8A /* Info.plist */,
+				CA4363F21F71159100BDEE8A /* UIColor+TC.swift */,
+				CA4363E61F710F1D00BDEE8A /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +149,7 @@
 			files = (
 				CA4363E01F710F1D00BDEE8A /* ViewController.swift in Sources */,
 				CA4363DE1F710F1D00BDEE8A /* AppDelegate.swift in Sources */,
+				CA4363F31F71159100BDEE8A /* UIColor+TC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,12 +287,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = TipCalculatorStarter/Info.plist;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/TipCalculatorStarter/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.makeschool.TipCalculatorStarter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -289,12 +302,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = TipCalculatorStarter/Info.plist;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/TipCalculatorStarter/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.makeschool.TipCalculatorStarter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
