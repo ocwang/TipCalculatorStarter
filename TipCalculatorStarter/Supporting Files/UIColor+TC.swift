@@ -10,7 +10,7 @@ import UIKit.UIColor
 
 extension UIColor {
     
-    // MARK: Brand Colors
+    // MARK: Theme Colors
     
     static var tcDarkBlue: UIColor {
         return UIColor(named: "tcDarkBlue")!

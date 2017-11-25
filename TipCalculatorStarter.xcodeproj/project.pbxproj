@@ -13,6 +13,7 @@
 		CA4363E51F710F1D00BDEE8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA4363E41F710F1D00BDEE8A /* Assets.xcassets */; };
 		CA4363E81F710F1D00BDEE8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA4363E61F710F1D00BDEE8A /* LaunchScreen.storyboard */; };
 		CA4363F31F71159100BDEE8A /* UIColor+TC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4363F21F71159100BDEE8A /* UIColor+TC.swift */; };
+		CA47DA2C1FC9C75B002D5CD8 /* BillAmountTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA47DA2B1FC9C75B002D5CD8 /* BillAmountTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		CA4363E71F710F1D00BDEE8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CA4363E91F710F1D00BDEE8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CA4363F21F71159100BDEE8A /* UIColor+TC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+TC.swift"; sourceTree = "<group>"; };
+		CA47DA2B1FC9C75B002D5CD8 /* BillAmountTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillAmountTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 			isa = PBXGroup;
 			children = (
 				CA4363E91F710F1D00BDEE8A /* Info.plist */,
+				CA47DA2B1FC9C75B002D5CD8 /* BillAmountTextField.swift */,
 				CA4363F21F71159100BDEE8A /* UIColor+TC.swift */,
 				CA4363E61F710F1D00BDEE8A /* LaunchScreen.storyboard */,
 			);
@@ -147,6 +150,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA47DA2C1FC9C75B002D5CD8 /* BillAmountTextField.swift in Sources */,
 				CA4363E01F710F1D00BDEE8A /* ViewController.swift in Sources */,
 				CA4363DE1F710F1D00BDEE8A /* AppDelegate.swift in Sources */,
 				CA4363F31F71159100BDEE8A /* UIColor+TC.swift in Sources */,
